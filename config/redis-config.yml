@@ -1,0 +1,5 @@
+spring:
+  redis:
+    host: ${REDIS_HOST:redis}   # fallback to redis
+    port: ${REDIS_PORT:6379}    # fallback to 6379
+    timeout: 2000
