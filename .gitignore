@@ -1,1 +1,8 @@
-.env
+.idea/
+*.iml
+.vscode/
+.gradle/
+**/build/
+*.log
+services/**/src/main/resources/application.yml
+.env*
