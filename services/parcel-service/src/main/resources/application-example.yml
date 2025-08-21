@@ -1,14 +1,15 @@
 server:
-  port: 8082
-
+  port: 8083
 spring:
   application:
-    name: warehouse-service
+    name: parcel-service
   data:
     mongodb:
       uri: mongodb://localhost:27017/sparrow
-      auto-index-creation : true
-
 jwt:
   secret: "REPLACE_WITH_BASE64_SECRET"
   expirationMillis: 3600000
+
+logging:
+  level:
+    com.sparrow.parcel_service: DEBUG

@@ -10,8 +10,9 @@ spring:
 
 
 jwt:
-  secret: "change-this-to-a-very-long-random-secret-at-least-32-characters"
+  secret: "REPLACE_WITH_BASE64_SECRET"
   expirationMillis: 3600000
+
 
 logging:
   level:
